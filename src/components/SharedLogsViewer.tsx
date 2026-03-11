@@ -1,25 +1,15 @@
 import React, { useContext, useState, useEffect } from 'react';
 import { API_BASE_URL } from '../config';
 import axios from 'axios';
-import { API_BASE_URL } from '../config';
 import { AppContext, Observation, Animal } from '../App';
-import { API_BASE_URL } from '../config';
 import { translations } from './mockData';
-import { API_BASE_URL } from '../config';
 import { ArrowLeft, FileText, AlertTriangle } from 'lucide-react';
-import { API_BASE_URL } from '../config';
 import { motion } from 'motion/react';
-import { API_BASE_URL } from '../config';
 import { Button } from './ui/button';
-import { API_BASE_URL } from '../config';
 import { Card } from './ui/card';
-import { API_BASE_URL } from '../config';
 import { Badge } from './ui/badge';
-import { API_BASE_URL } from '../config';
 import { Loader } from 'lucide-react';
-import { API_BASE_URL } from '../config';
 import { ImageWithFallback } from './figma/ImageWithFallback';
-import { API_BASE_URL } from '../config';
 
 export function SharedLogsViewer() {
   const { currentUser, language, setCurrentScreen } = useContext(AppContext);
